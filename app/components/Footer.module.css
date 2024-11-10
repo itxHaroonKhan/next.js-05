@@ -1,0 +1,68 @@
+/* Footer container */
+.footer-container {
+    background-color: black;
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .footer-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Paragraph styling */
+  .footer-text {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Social media icons container */
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-media-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-icon:hover {
+    color: #6366f1; /* Change to a blue color on hover */
+  }
+  
+  /* Social media icon styling */
+  .social-media-icon i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Email and phone section */
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-info i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .contact-info span {
+    font-size: 1.125rem;
+  }
+  
+  /* Small text for footer */
+  .footer-small-text {
+    font-size: 0.875rem;
+    margin-top: 2rem;
+  }
+  

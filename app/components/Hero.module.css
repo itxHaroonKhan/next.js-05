@@ -1,0 +1,97 @@
+.hero-container {
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/bc/27/a4/bc27a48ec357be155c48bbd9363bfc96.gif');
+    background-size: 55%;
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 8px;
+  }
+  
+  .hero-content {
+    margin-left: 32px;
+    margin-top: 44px;
+    color: white;
+  }
+  
+  .hero-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: white; 
+    max-width: 500px; 
+        margin: 20px 0; 
+    text-align: justify; 
+    letter-spacing: 0.5px; 
+    font-weight: 400; 
+    margin-left:5% ;
+   
+  }
+  .heding {
+    margin-left:5% ;
+    margin-top:11% ;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif; 
+    border-right: 2px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: typing 3s steps(10) infinite, cursor-blink 0.75s step-end infinite, erase 3s steps(10) infinite;
+  }
+  
+  @keyframes cursor-blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0%;
+    }
+    30% {
+      width: 30%; /* Stop typing at 30% */
+    }
+    100% {
+      width: 30%; /* Keep width at 30% */
+    }
+  }
+  
+  @keyframes erase {
+    0% {
+      width: 30%; /* Start erasing from 30% */
+    }
+    50% {
+      width: 0%; /* Erase completely */
+    }
+    100% {
+      width: 0%; /* Stay erased */
+    }
+  }
+  
+    
+  
+  .hero-paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .hero-button {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left:5% ;
+  }
+  
+  .hero-button:hover {
+    background-color: #2563eb;
+    transform: scale(0.95);
+  }
+  
+  .hero-button:active {
+    transform: scale(0.9);
+  }
+  

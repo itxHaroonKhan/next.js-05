@@ -1,0 +1,45 @@
+/* About section container */
+.about-container {
+    padding: 3rem 1.5rem; /* Responsive padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px;
+   
+  }
+  
+  /* Inner content wrapper */
+  .about-content {
+    max-width: 32rem; /* Restrict width for readability */
+    text-align: center;
+  }
+  
+  /* Image styling */
+  .about-image {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem; /* Center image and add bottom margin */
+    transition: transform 0.3s ease;
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05); /* Hover effect on image */
+  }
+  
+  /* Heading styling */
+  .about-heading {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  
+  }
+  
+  /* Paragraph styling */
+  .about-text {
+  
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  

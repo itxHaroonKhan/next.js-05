@@ -1,0 +1,84 @@
+/* Container for the Contact Section */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/f3/d9/c2/f3d9c2149aacff30ea739ea54db67a83.gif");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-width: 600px;
+    color: white;
+  }
+  
+  /* Heading */
+  .contact-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #4A90E2;
+  }
+  
+  /* Textarea for Message */
+  .textarea-field {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 1.5rem;
+    resize: vertical;
+  }
+  
+  .textarea-field:focus {
+    outline: none;
+    border-color: #4A90E2;
+  }
+  
+  /* Button */
+  .submit-button {
+    background-color: #4A90E2;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.25rem;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .submit-button:hover {
+    color: black;
+    transform: scale(1.05);
+  }
+  
+  /* Icon Styling */
+  .icon-inline {
+    margin-right: 8px;
+  }
+  
